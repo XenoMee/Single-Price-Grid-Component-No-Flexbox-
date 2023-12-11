@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.bg-primary-100{
+    background-color: #FFFFFF;
+}
+.bg-primary-200{
+    background-color: #2AB3B1;
+}
+.bg-primary-300{
+    background-color: #2AB3B1;
+    opacity: 0.8;
+}
+
 body{
     font-family: 'Karla', sans-serif;
     background-color: #E6EFF5;
