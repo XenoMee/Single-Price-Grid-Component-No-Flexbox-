@@ -18,6 +18,14 @@
 .fc-accent-100{
     color: #9AA7BE;
 }
+.fc-accent-200{
+    color: #2AB3B1;
+}
+
+.fs-120{
+    font-size: 1.2rem;
+}
+
 
 body{
     font-family: 'Karla', sans-serif;
@@ -40,6 +48,7 @@ body{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     box-shadow: 0 0 1rem 0 rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
 }
 
 .card{
@@ -54,12 +63,14 @@ body{
     margin-top: 0;
 }
 
-.card-title{
-    font-size: 1.2rem;
+.community-card{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
-.card-title-color{
-    color: #2AB3B1;
+.subscription-card .card-title,
+.reason-card .card-title{
+    font-size: 1.1rem;
 }
 
 .money-back{
@@ -77,6 +88,10 @@ body{
 .card-pricing{
     display: flex;
     gap: 0.8rem;
+}
+
+.subscription-card *{
+    margin-bottom: 0;
 }
 
 .subscription-availability,
@@ -105,6 +120,11 @@ body{
     text-decoration: none;
 }
 
+.reason-card{
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
 .card-list{
     padding: 0;
     opacity: 0.7;
@@ -113,6 +133,7 @@ body{
 
 .list-item{
     list-style: none;
+    font-size: 0.85rem;
 }
 
 .attribution {
