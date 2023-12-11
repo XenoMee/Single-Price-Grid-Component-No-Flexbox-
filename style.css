@@ -74,6 +74,11 @@ body{
     opacity: 0.85;
 }
 
+.card-pricing{
+    display: flex;
+    gap: 0.8rem;
+}
+
 .subscription-availability,
 .subscription-price{
     display: inline-block;
