@@ -67,7 +67,26 @@ body{
 
 .card-info:first-of-type {
     color: #9AA7BE;
+}
+
+.card-info{
     font-size: 0.85rem;
+    opacity: 0.85;
+}
+
+.subscription-availability,
+.subscription-price{
+    display: inline-block;
+}
+
+.subscription-price{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.subscription-availability{
+    align-self: center;
+    margin-bottom: 0;
 }
 
 .btn{
