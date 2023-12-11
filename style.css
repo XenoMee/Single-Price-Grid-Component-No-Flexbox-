@@ -32,14 +32,13 @@ body{
 
 
 .container{
-    width: 19.5rem;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
 }
 
 .card{
     display: grid;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: start;
 }
 
