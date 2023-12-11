@@ -92,6 +92,7 @@ body{
 .subscription-availability{
     align-self: center;
     margin-bottom: 0;
+    opacity: .5;
 }
 
 .btn{
