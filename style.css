@@ -32,6 +32,7 @@ body{
 
 
 .container{
+    width: 19rem;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     box-shadow: 0 0 1rem 0 rgba(0,0,0,0.3);
@@ -39,6 +40,8 @@ body{
 
 .card{
     display: grid;
+    justify-items: start;
+    align-items: center;
     padding: 1.5rem;
     text-align: start;
 }
@@ -65,6 +68,16 @@ body{
 .card-info:first-of-type {
     color: #9AA7BE;
     font-size: 0.85rem;
+}
+
+.btn{
+    padding: 0.6rem 6rem;
+    text-align: center;
+    background-color: #C0DF33;
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.3);
+    text-decoration: none;
 }
 
 .card-list{
