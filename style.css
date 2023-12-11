@@ -67,7 +67,13 @@ body{
     font-size: 0.85rem;
 }
 
+.card-list{
+    padding: 0;
+}
 
+.list-item{
+    list-style: none;
+}
 
 .attribution {
     color: initial;
