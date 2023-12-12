@@ -182,6 +182,10 @@ body {
     font-size: 1.05rem;
    }
 
+   .subscription-card{
+    border-bottom-left-radius: 0.5rem;
+   }
+
    .subscription-card .card-title{
     margin-bottom: 0.5rem;
    }
@@ -192,6 +196,10 @@ body {
 
    .subscription-price{
     font-size: 2.1rem;
+   }
+
+   .reason-card{
+    border-bottom-left-radius: 0;
    }
 
 }
