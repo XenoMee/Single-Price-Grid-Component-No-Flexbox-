@@ -162,19 +162,36 @@ body {
     .card:first-child{
         grid-column: span 2;
     }
+    .money-back{
+        font-size: 1.2rem;
+    }
 
     .fs-title-h1{
         font-size: 1.6rem;    
     }
 
-    .money-back{
-        font-size: 1.2rem;
+    .fs-title-h2{
+        font-size: 1.3rem;    
     }
 
    .fs-text-100{
     font-size: 1.02rem;
    }
 
+   .fs-text-200{
+    font-size: 1.05rem;
+   }
 
+   .subscription-card .card-title{
+    margin-bottom: 0.5rem;
+   }
+
+   .subscription-card .card-info{
+    margin-bottom: 2rem;
+   }
+
+   .subscription-price{
+    font-size: 2.1rem;
+   }
 
 }
