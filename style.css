@@ -38,7 +38,7 @@
 }
 
 .fs-text-100 {
-  font-size: 0.85rem;
+  font-size: 0.84rem;
 }
 .fs-text-200 {
   font-size: 0.95rem;
@@ -76,6 +76,10 @@ body {
 
 .card {
   padding: 1.2rem 1.5rem;
+}
+
+.card:first-child p {
+    display: inline-block;
 }
 
 .card-info {
