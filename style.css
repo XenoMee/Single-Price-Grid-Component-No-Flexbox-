@@ -2,6 +2,7 @@
 
 *, *:before, *:after{
     box-sizing: border-box;
+    margin: 0;
 }
 
 .bg-primary-100{
@@ -23,7 +24,7 @@
 }
 
 .fs-title-h1{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .fs-title-h2{
@@ -63,10 +64,6 @@ body{
     padding: 1.5rem;
 }
 
-.card * {
-    margin-top: 0;
-}
-
 .community-card{
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
@@ -75,7 +72,7 @@ body{
 .money-back{
     color: #C0DF33;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.98rem;
     margin-bottom: 1rem;
 }
 
