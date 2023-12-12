@@ -147,3 +147,17 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 768px) {
+    .content{
+        min-height: 100vh;
+    }   
+
+    .container{
+        max-width: 40rem;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);    
+    }
+    
+    
+}
