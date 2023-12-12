@@ -159,5 +159,8 @@ body {
         grid-template-columns: repeat(2, 1fr);    
     }
     
-    
+    .card:first-child{
+        grid-column: span 2;
+    }
+
 }
