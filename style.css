@@ -58,9 +58,6 @@ body{
 }
 
 .card{
-    display: grid;
-    justify-items: start;
-    align-items: center;
     padding: 1.5rem;
 }
 
@@ -74,11 +71,6 @@ body{
     font-weight: 700;
     font-size: 0.98rem;
     margin-bottom: 1rem;
-}
-
-.subscription-card{
-    grid-template-rows: max-content auto auto auto;
-    align-content: start;  
 }
 
 .subscription-card .card-title{
