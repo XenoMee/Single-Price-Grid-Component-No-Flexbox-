@@ -44,12 +44,12 @@
   font-size: 0.95rem;
 }
 
-.mb-title{
-    margin-bottom: 1rem;
+.mb-title {
+  margin-bottom: 1rem;
 }
 
-.mb-text{
-    margin-bottom: 1rem;
+.mb-text {
+  margin-bottom: 1rem;
 }
 
 body {
@@ -66,7 +66,7 @@ body {
 }
 
 .container {
-  width: 19rem;
+  max-width: 19rem;
   display: grid;
   grid-template-rows: 1fr 30% 1fr;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
@@ -88,7 +88,7 @@ body {
 }
 
 .money-back {
-    display: inline-block;
+  display: inline-block;
   color: #c0df33;
   font-weight: 700;
   font-size: 0.98rem;
@@ -114,7 +114,7 @@ body {
 }
 
 .btn {
-    display: inline-block;
+  display: inline-block;
   padding: 0.7rem 6.2rem;
   text-align: center;
   background-color: #c0df33;
