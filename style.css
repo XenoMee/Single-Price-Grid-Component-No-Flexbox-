@@ -78,10 +78,6 @@ body {
   padding: 1.2rem 1.5rem;
 }
 
-.card:first-child p {
-    display: inline-block;
-}
-
 .card-info {
   opacity: 0.85;
 }
@@ -155,12 +151,24 @@ body {
 
     .container{
         max-width: 40rem;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: max-content 1fr;
         grid-template-columns: repeat(2, 1fr);    
     }
     
     .card:first-child{
         grid-column: span 2;
     }
+
+    .fs-title-h1{
+        font-size: 1.6rem;    
+    }
+
+    .money-back{
+        font-size: 1.2rem;
+    }
+
+   .fs-text-100{
+    font-size: 1.02rem;
+   }
 
 }
