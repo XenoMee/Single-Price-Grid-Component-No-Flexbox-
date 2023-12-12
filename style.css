@@ -154,6 +154,10 @@ body {
         grid-template-rows: max-content 1fr;
         grid-template-columns: repeat(2, 1fr);    
     }
+
+    .card{
+        padding: 2rem 2.5rem;    
+    }
     
     .card:first-child{
         grid-column: span 2;
@@ -170,5 +174,7 @@ body {
    .fs-text-100{
     font-size: 1.02rem;
    }
+
+
 
 }
