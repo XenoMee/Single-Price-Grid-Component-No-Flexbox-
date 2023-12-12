@@ -34,7 +34,7 @@
 }
 
 .fs-list-item {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .fs-text-100 {
@@ -115,6 +115,7 @@ body {
 
 .btn {
   display: inline-block;
+  width: max-content;
   padding: 0.7rem 6.2rem;
   text-align: center;
   background-color: #c0df33;
@@ -144,9 +145,12 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 40rem) {
     .content{
         min-height: 100vh;
+        display: grid;
+        place-items: center;
+        margin: 0;
     }   
 
     .container{
