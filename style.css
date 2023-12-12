@@ -22,8 +22,12 @@
     color: #2AB3B1;
 }
 
-.fs-120{
+.fs-title-h1{
     font-size: 1.2rem;
+}
+
+.fs-title-h2{
+    font-size: 1.1rem;
 }
 
 
