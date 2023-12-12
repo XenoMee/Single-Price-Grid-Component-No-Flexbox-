@@ -122,6 +122,7 @@ body{
 }
 
 .btn{
+    width: max-content;
     padding: 0.6rem 6rem;
     text-align: center;
     background-color: #C0DF33;
