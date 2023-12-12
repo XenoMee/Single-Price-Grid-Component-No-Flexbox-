@@ -31,6 +31,17 @@
     font-size: 1.1rem;
 }
 
+.fs-list-item{
+    font-size: 0.85rem;
+}
+
+.fs-text-100{
+    font-size: 0.85rem;
+}
+.fs-text-200{
+    font-size: 0.95rem;
+}
+
 
 body{
     font-family: 'Karla', sans-serif;
@@ -77,24 +88,15 @@ body{
 }
 
 
-
 .subscription-card .card-info{
     font-size: 0.95rem;
-    margin-bottom: 1.5em;
 }
 
 
 .card-pricing{
-    display: flex;
-    max-height: 2rem;
+    display: inline-flex;
     gap: 0.8rem;
     align-items: center;
-    margin-bottom: 0.2em;
-}
-
-.subscription-availability,
-.subscription-price{
-    display: inline-block;
 }
 
 .subscription-price{
@@ -103,8 +105,6 @@ body{
 }
 
 .subscription-availability{
-    align-self: center;
-    margin-bottom: 0;
     opacity: .5;
 }
 
