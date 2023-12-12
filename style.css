@@ -78,7 +78,6 @@ body{
 .subscription-card{
     grid-template-rows: max-content auto auto auto;
     align-content: start;  
-    height: fit-content;
 }
 
 .subscription-card .card-title{
